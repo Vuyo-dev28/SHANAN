@@ -23,12 +23,12 @@ export default function GBVAwarenessPage() {
 
           <Card className="overflow-hidden shadow-lg">
             <Image
-              src="https://images.unsplash.com/photo-1589990159495-257c7803e4d0?q=80&w=1200&h=500&fit=crop&auto=format"
-              alt="Two women holding hands in a gesture of support"
+              src="https://images.unsplash.com/photo-1524851965576-9261a86f536e?q=80&w=1200&h=500&fit=crop&auto=format"
+              alt="Two South African women supporting each other"
               width={1200}
               height={500}
               className="w-full h-auto object-cover"
-              data-ai-hint="support community"
+              data-ai-hint="support women"
             />
           </Card>
 

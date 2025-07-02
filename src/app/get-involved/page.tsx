@@ -34,12 +34,12 @@ export default function GetInvolvedPage() {
             </div>
             <div className="md:w-1/2 h-64 md:h-auto">
               <Image 
-                src="https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?q=80&w=600&h=450&fit=crop&auto=format"
-                alt="Hands cupped together holding coins, symbolizing a donation"
+                src="https://images.unsplash.com/photo-1604594411138-75177a7657a7?q=80&w=600&h=450&fit=crop&auto=format"
+                alt="Hands holding South African Rand coins"
                 width={600}
                 height={450}
                 className="w-full h-full object-cover"
-                data-ai-hint="giving donation"
+                data-ai-hint="donate money"
               />
             </div>
           </Card>
@@ -62,8 +62,8 @@ export default function GetInvolvedPage() {
             </div>
             <div className="md:w-1/2 h-64 md:h-auto">
               <Image 
-                src="https://images.unsplash.com/photo-1606214412215-b90305a02568?q=80&w=600&h=450&fit=crop&auto=format"
-                alt="A group of happy South African volunteers working together"
+                src="https://images.unsplash.com/photo-1618204116909-c48734645a27?q=80&w=600&h=450&fit=crop&auto=format"
+                alt="A group of diverse volunteers in South Africa smiling"
                 width={600}
                 height={450}
                 className="w-full h-full object-cover"

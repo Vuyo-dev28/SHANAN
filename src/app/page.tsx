@@ -61,8 +61,8 @@ export default function Home() {
     <div className="flex flex-col">
       <section className="relative h-[60vh] md:h-[70vh] w-full">
         <Image
-          src="https://images.unsplash.com/photo-1599387132531-017415443ade?q=80&w=1920&h=1080&fit=crop&auto=format"
-          alt="Happy South African children playing outdoors"
+          src="https://images.unsplash.com/photo-1534082722103-109b5f474427?q=80&w=1920&h=1080&fit=crop&auto=format"
+          alt="South African children smiling with colorful painted hands"
           fill
           className="object-cover"
           data-ai-hint="children south africa"
@@ -125,8 +125,8 @@ export default function Home() {
                 </div>
                 <div className="rounded-lg overflow-hidden shadow-lg">
                     <Image 
-                      src="https://images.unsplash.com/photo-1621216016335-4a6a57e3c50a?q=80&w=600&h=400&fit=crop&auto=format" 
-                      alt="A diverse group of community members in South Africa" 
+                      src="https://images.unsplash.com/photo-1608985223940-20a2e7bf609b?q=80&w=600&h=400&fit=crop&auto=format" 
+                      alt="Diverse group of South African community members" 
                       width={600} 
                       height={400} 
                       className="w-full object-cover"

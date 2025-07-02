@@ -23,8 +23,8 @@ export default function SubstanceAbusePage() {
 
           <Card className="overflow-hidden shadow-lg">
             <Image
-              src="https://images.unsplash.com/photo-1628809789385-d63644a49652?q=80&w=1200&h=500&fit=crop&auto=format"
-              alt="A diverse group of people sitting in a circle outdoors for a support session"
+              src="https://images.unsplash.com/photo-1579208570335-a43d8e96941b?q=80&w=1200&h=500&fit=crop&auto=format"
+              alt="A support group session in a sunny South African setting"
               width={1200}
               height={500}
               className="w-full h-auto object-cover"

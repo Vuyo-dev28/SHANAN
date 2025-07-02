@@ -23,12 +23,12 @@ export default function OrphanageSupportPage() {
 
           <Card className="overflow-hidden shadow-lg">
             <Image
-              src="https://images.unsplash.com/photo-1605645934394-88488e0439f7?q=80&w=1200&h=500&fit=crop&auto=format"
-              alt="South African children learning in a classroom"
+              src="https://images.unsplash.com/photo-153003295-22b6b5536449?q=80&w=1200&h=500&fit=crop&auto=format"
+              alt="South African children playing soccer in a township"
               width={1200}
               height={500}
               className="w-full h-auto object-cover"
-              data-ai-hint="children school"
+              data-ai-hint="children playing"
             />
           </Card>
 
