@@ -44,13 +44,13 @@ const testimonials = [
   {
     name: "Jane Doe",
     role: "Donor",
-    avatar: "https://placehold.co/100x100.png",
+    avatar: "https://images.unsplash.com/photo-1599566150163-29194dcaad36?w=100&h=100&fit=crop",
     testimonial: "Beacon of Hope is making a real difference. Their transparency and dedication are why I continue to support their cause. I've seen firsthand the positive impact they have on children's lives.",
   },
   {
     name: "John Smith",
     role: "Volunteer",
-    avatar: "https://placehold.co/100x100.png",
+    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop",
     testimonial: "Volunteering here has been a life-changing experience. The organization is incredibly well-run, and you can truly see the impact of your work on the community. It's more than just help; it's about building futures.",
   },
 ];
@@ -61,7 +61,7 @@ export default function Home() {
     <div className="flex flex-col">
       <section className="relative h-[60vh] md:h-[70vh] w-full">
         <Image
-          src="https://placehold.co/1920x1080.png"
+          src="https://images.unsplash.com/photo-1593492343200-fe13c63a897b?q=80&w=1920&h=1080&fit=crop&auto=format"
           alt="South African children smiling with colorful painted hands"
           fill
           className="object-cover"
@@ -125,7 +125,7 @@ export default function Home() {
                 </div>
                 <div className="rounded-lg overflow-hidden shadow-lg">
                     <Image 
-                      src="https://placehold.co/600x400.png" 
+                      src="https://images.unsplash.com/photo-1606998082336-a2790a1f0452?w=600&h=400&fit=crop&auto=format" 
                       alt="Diverse group of South African community members" 
                       width={600} 
                       height={400} 

@@ -34,7 +34,7 @@ export default function GetInvolvedPage() {
             </div>
             <div className="md:w-1/2 h-64 md:h-auto">
               <Image 
-                src="https://placehold.co/600x450.png"
+                src="https://images.unsplash.com/photo-1632236542613-642137948332?w=600&h=450&fit=crop&auto=format"
                 alt="Hands holding South African Rand coins"
                 width={600}
                 height={450}
@@ -62,7 +62,7 @@ export default function GetInvolvedPage() {
             </div>
             <div className="md:w-1/2 h-64 md:h-auto">
               <Image 
-                src="https://placehold.co/600x450.png"
+                src="https://plus.unsplash.com/premium_photo-1663040003050-591632734185?w=600&h=450&fit=crop&auto=format"
                 alt="A group of diverse volunteers in South Africa smiling"
                 width={600}
                 height={450}
@@ -90,7 +90,7 @@ export default function GetInvolvedPage() {
             </div>
             <div className="md:w-1/2 h-64 md:h-auto">
                <Image 
-                src="https://placehold.co/600x450.png"
+                src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&h=450&fit=crop&auto=format"
                 alt="A diverse group of professionals collaborating in a modern office"
                 width={600}
                 height={450}
