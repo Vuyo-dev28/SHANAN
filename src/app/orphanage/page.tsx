@@ -23,7 +23,7 @@ export default function OrphanageSupportPage() {
 
           <Card className="overflow-hidden shadow-lg">
             <Image
-              src="https://images.unsplash.com/photo-153003295-22b6b5536449?q=80&w=1200&h=500&fit=crop&auto=format"
+              src="https://placehold.co/1200x500.png"
               alt="South African children playing soccer in a township"
               width={1200}
               height={500}

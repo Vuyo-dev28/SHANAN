@@ -23,7 +23,7 @@ export default function SubstanceAbusePage() {
 
           <Card className="overflow-hidden shadow-lg">
             <Image
-              src="https://images.unsplash.com/photo-1579208570335-a43d8e96941b?q=80&w=1200&h=500&fit=crop&auto=format"
+              src="https://placehold.co/1200x500.png"
               alt="A support group session in a sunny South African setting"
               width={1200}
               height={500}

@@ -23,7 +23,7 @@ export default function TeenPregnancyPage() {
 
           <Card className="overflow-hidden shadow-lg">
             <Image
-              src="https://images.unsplash.com/photo-1607992922413-a4e7c7b35061?q=80&w=1200&h=500&fit=crop&auto=format"
+              src="https://placehold.co/1200x500.png"
               alt="A young South African mother lovingly holding her baby"
               width={1200}
               height={500}

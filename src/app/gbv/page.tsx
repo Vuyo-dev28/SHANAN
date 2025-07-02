@@ -23,7 +23,7 @@ export default function GBVAwarenessPage() {
 
           <Card className="overflow-hidden shadow-lg">
             <Image
-              src="https://images.unsplash.com/photo-1524851965576-9261a86f536e?q=80&w=1200&h=500&fit=crop&auto=format"
+              src="https://placehold.co/1200x500.png"
               alt="Two South African women supporting each other"
               width={1200}
               height={500}
