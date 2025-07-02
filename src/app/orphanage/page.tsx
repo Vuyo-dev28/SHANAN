@@ -23,9 +23,8 @@ export default function OrphanageSupportPage() {
 
           <Card className="overflow-hidden shadow-lg">
             <Image
-              src="https://placehold.co/1200x500.png"
+              src="https://images.unsplash.com/photo-1505242768142-8c1b694c7a52?q=80&w=1200&h=500&fit=crop&auto=format"
               alt="Happy children at an orphanage"
-              data-ai-hint="happy children"
               width={1200}
               height={500}
               className="w-full h-auto object-cover"

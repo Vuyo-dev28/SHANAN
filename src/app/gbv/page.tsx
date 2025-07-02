@@ -23,9 +23,8 @@ export default function GBVAwarenessPage() {
 
           <Card className="overflow-hidden shadow-lg">
             <Image
-              src="https://placehold.co/1200x500.png"
+              src="https://images.unsplash.com/photo-1579548122214-c18898b3a436?q=80&w=1200&h=500&fit=crop&auto=format"
               alt="A person being comforted"
-              data-ai-hint="support comfort"
               width={1200}
               height={500}
               className="w-full h-auto object-cover"

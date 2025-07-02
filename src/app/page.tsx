@@ -44,13 +44,13 @@ const testimonials = [
   {
     name: "Jane Doe",
     role: "Donator",
-    avatar: "https://placehold.co/100x100.png",
+    avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&q=80&auto=format",
     testimonial: "Beacon of Hope is making a real difference. Their transparency and dedication are why I continue to support their cause. I've seen firsthand the positive impact they have on children's lives.",
   },
   {
     name: "John Smith",
     role: "Volunteer",
-    avatar: "https://placehold.co/100x100.png",
+    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&q=80&auto=format",
     testimonial: "Volunteering here has been a life-changing experience. The organization is incredibly well-run, and you can truly see the impact of your work on the community. It's more than just help; it's about building futures.",
   },
 ];
@@ -61,12 +61,11 @@ export default function Home() {
     <div className="flex flex-col">
       <section className="relative h-[60vh] md:h-[70vh] w-full">
         <Image
-          src="https://placehold.co/1920x1080.png"
+          src="https://images.unsplash.com/photo-1488521787991-ed7b2f28a727?q=80&w=1920&h=1080&fit=crop&auto=format"
           alt="Hopeful children smiling"
           fill
           className="object-cover"
           priority
-          data-ai-hint="community help"
         />
         <div className="absolute inset-0 bg-primary/60" />
         <div className="relative h-full flex flex-col items-center justify-center text-center text-primary-foreground px-4">
@@ -124,7 +123,7 @@ export default function Home() {
                     </Button>
                 </div>
                 <div className="rounded-lg overflow-hidden shadow-lg">
-                    <Image src="https://placehold.co/600x400.png" alt="Volunteers working together" width={600} height={400} className="w-full object-cover" data-ai-hint="volunteers helping" />
+                    <Image src="https://images.unsplash.com/photo-1517457373958-b7bdd4587205?q=80&w=600&h=400&fit=crop&auto=format" alt="Volunteers working together" width={600} height={400} className="w-full object-cover" />
                 </div>
             </div>
         </div>
@@ -143,7 +142,7 @@ export default function Home() {
               <Card key={testimonial.name} className="p-6">
                 <CardContent className="flex flex-col items-center text-center">
                   <Avatar className="w-20 h-20 mb-4">
-                    <AvatarImage src={testimonial.avatar} alt={testimonial.name} data-ai-hint="portrait person" />
+                    <AvatarImage src={testimonial.avatar} alt={testimonial.name} />
                     <AvatarFallback>{testimonial.name.charAt(0)}</AvatarFallback>
                   </Avatar>
                   <p className="text-muted-foreground italic">&quot;{testimonial.testimonial}&quot;</p>

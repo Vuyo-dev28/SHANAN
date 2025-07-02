@@ -34,12 +34,11 @@ export default function GetInvolvedPage() {
             </div>
             <div className="md:w-1/2 h-64 md:h-auto">
               <Image 
-                src="https://placehold.co/600x450.png"
+                src="https://images.unsplash.com/photo-1593113598332-cd288d649433?q=80&w=600&h=450&fit=crop&auto=format"
                 alt="A collection of donation items"
                 width={600}
                 height={450}
                 className="w-full h-full object-cover"
-                data-ai-hint="charity donation"
               />
             </div>
           </Card>
@@ -62,12 +61,11 @@ export default function GetInvolvedPage() {
             </div>
             <div className="md:w-1/2 h-64 md:h-auto">
               <Image 
-                src="https://placehold.co/600x450.png"
+                src="https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?q=80&w=600&h=450&fit=crop&auto=format"
                 alt="A group of diverse volunteers"
                 width={600}
                 height={450}
                 className="w-full h-full object-cover"
-                data-ai-hint="diverse volunteers"
               />
             </div>
           </Card>
@@ -90,12 +88,11 @@ export default function GetInvolvedPage() {
             </div>
             <div className="md:w-1/2 h-64 md:h-auto">
                <Image 
-                src="https://placehold.co/600x450.png"
+                src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=600&h=450&fit=crop&auto=format"
                 alt="Professionals in a meeting"
                 width={600}
                 height={450}
                 className="w-full h-full object-cover"
-                data-ai-hint="corporate meeting"
               />
             </div>
           </Card>

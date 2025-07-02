@@ -23,9 +23,8 @@ export default function SubstanceAbusePage() {
 
           <Card className="overflow-hidden shadow-lg">
             <Image
-              src="https://placehold.co/1200x500.png"
+              src="https://images.unsplash.com/photo-1557426272-fc759fdf7a8d?q=80&w=1200&h=500&fit=crop&auto=format"
               alt="Support group session"
-              data-ai-hint="support group"
               width={1200}
               height={500}
               className="w-full h-auto object-cover"
