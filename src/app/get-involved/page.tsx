@@ -34,11 +34,12 @@ export default function GetInvolvedPage() {
             </div>
             <div className="md:w-1/2 h-64 md:h-auto">
               <Image 
-                src="https://images.unsplash.com/photo-1593113598332-cd288d649433?q=80&w=600&h=450&fit=crop&auto=format"
-                alt="A collection of donation items"
+                src="https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?q=80&w=600&h=450&fit=crop&auto=format"
+                alt="Hands cupped together holding coins, symbolizing a donation"
                 width={600}
                 height={450}
                 className="w-full h-full object-cover"
+                data-ai-hint="giving donation"
               />
             </div>
           </Card>
@@ -61,11 +62,12 @@ export default function GetInvolvedPage() {
             </div>
             <div className="md:w-1/2 h-64 md:h-auto">
               <Image 
-                src="https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?q=80&w=600&h=450&fit=crop&auto=format"
-                alt="A group of diverse volunteers"
+                src="https://images.unsplash.com/photo-1606214412215-b90305a02568?q=80&w=600&h=450&fit=crop&auto=format"
+                alt="A group of happy South African volunteers working together"
                 width={600}
                 height={450}
                 className="w-full h-full object-cover"
+                data-ai-hint="volunteers south africa"
               />
             </div>
           </Card>
@@ -88,11 +90,12 @@ export default function GetInvolvedPage() {
             </div>
             <div className="md:w-1/2 h-64 md:h-auto">
                <Image 
-                src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=600&h=450&fit=crop&auto=format"
-                alt="Professionals in a meeting"
+                src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=600&h=450&fit=crop&auto=format"
+                alt="A diverse group of professionals collaborating in a modern office"
                 width={600}
                 height={450}
                 className="w-full h-full object-cover"
+                data-ai-hint="business meeting"
               />
             </div>
           </Card>

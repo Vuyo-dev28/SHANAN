@@ -23,11 +23,12 @@ export default function SubstanceAbusePage() {
 
           <Card className="overflow-hidden shadow-lg">
             <Image
-              src="https://images.unsplash.com/photo-1557426272-fc759fdf7a8d?q=80&w=1200&h=500&fit=crop&auto=format"
-              alt="Support group session"
+              src="https://images.unsplash.com/photo-1628809789385-d63644a49652?q=80&w=1200&h=500&fit=crop&auto=format"
+              alt="A diverse group of people sitting in a circle outdoors for a support session"
               width={1200}
               height={500}
               className="w-full h-auto object-cover"
+              data-ai-hint="support group"
             />
           </Card>
 

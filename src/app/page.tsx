@@ -43,14 +43,14 @@ const focusAreas = [
 const testimonials = [
   {
     name: "Jane Doe",
-    role: "Donator",
-    avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&q=80&auto=format",
+    role: "Donor",
+    avatar: "https://images.unsplash.com/photo-1543169882-639a0669146f?w=100&h=100&fit=crop&q=80&auto=format",
     testimonial: "Beacon of Hope is making a real difference. Their transparency and dedication are why I continue to support their cause. I've seen firsthand the positive impact they have on children's lives.",
   },
   {
     name: "John Smith",
     role: "Volunteer",
-    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&q=80&auto=format",
+    avatar: "https://images.unsplash.com/photo-1595438463365-22618035b1b4?w=100&h=100&fit=crop&q=80&auto=format",
     testimonial: "Volunteering here has been a life-changing experience. The organization is incredibly well-run, and you can truly see the impact of your work on the community. It's more than just help; it's about building futures.",
   },
 ];
@@ -61,10 +61,11 @@ export default function Home() {
     <div className="flex flex-col">
       <section className="relative h-[60vh] md:h-[70vh] w-full">
         <Image
-          src="https://images.unsplash.com/photo-1488521787991-ed7b2f28a727?q=80&w=1920&h=1080&fit=crop&auto=format"
-          alt="Hopeful children smiling"
+          src="https://images.unsplash.com/photo-1599387132531-017415443ade?q=80&w=1920&h=1080&fit=crop&auto=format"
+          alt="Happy South African children playing outdoors"
           fill
           className="object-cover"
+          data-ai-hint="children south africa"
           priority
         />
         <div className="absolute inset-0 bg-primary/60" />
@@ -123,7 +124,14 @@ export default function Home() {
                     </Button>
                 </div>
                 <div className="rounded-lg overflow-hidden shadow-lg">
-                    <Image src="https://images.unsplash.com/photo-1517457373958-b7bdd4587205?q=80&w=600&h=400&fit=crop&auto=format" alt="Volunteers working together" width={600} height={400} className="w-full object-cover" />
+                    <Image 
+                      src="https://images.unsplash.com/photo-1621216016335-4a6a57e3c50a?q=80&w=600&h=400&fit=crop&auto=format" 
+                      alt="A diverse group of community members in South Africa" 
+                      width={600} 
+                      height={400} 
+                      className="w-full object-cover"
+                      data-ai-hint="community south africa" 
+                    />
                 </div>
             </div>
         </div>
