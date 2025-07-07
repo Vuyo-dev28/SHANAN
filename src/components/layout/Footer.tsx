@@ -11,7 +11,7 @@ const socialLinks = [
 ];
 
 const footerLinks = [
-    { title: "About Us", links: [{label: "Our Mission", href:"/#focus"}, {label: "Contact Us", href:"/contact"}] },
+    { title: "About Us", links: [{label: "Our Mission", href:"/#mission"}, {label: "Contact Us", href:"/contact"}] },
     { title: "Our Work", links: [{label: "Orphanage Support", href:"/orphanage"}, {label: "GBV Awareness", href:"/gbv"}, {label: "Teen Pregnancy", href:"/teen-pregnancy"}, {label: "Substance Abuse", href:"/substance-abuse"}] },
     { title: "Get Involved", links: [{label: "Donate", href:"/get-involved#donate"}, {label: "Volunteer", href:"/get-involved#volunteer"}] },
 ]
@@ -24,7 +24,7 @@ export default function Footer() {
             <div className="lg:col-span-2 space-y-4">
                 <Logo />
                 <p className="text-muted-foreground max-w-xs">
-                    Beacon of Hope is committed to empowering vulnerable populations through compassionate support and action.
+                    SHANAN is a Christian and life skills organization empowering communities through holistic development.
                 </p>
                 <div className="flex space-x-4">
                     {socialLinks.map((social) => (
@@ -53,7 +53,7 @@ export default function Footer() {
             ))}
         </div>
         <div className="mt-12 border-t pt-8 text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} Beacon of Hope. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} SHANAN. All rights reserved.</p>
         </div>
       </div>
     </footer>

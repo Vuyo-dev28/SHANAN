@@ -6,8 +6,8 @@ import { cn } from "@/lib/utils";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Beacon of Hope",
-  description: "Supporting vulnerable populations through compassion and action.",
+  title: "SHANAN - Community Empowerment",
+  description: "SHANAN is a Christian and life skills approach organization empowering communities in Alexandra, Johannesburg through training, education, and holistic development.",
   icons: {
     icon: "/favicon.ico",
   },
