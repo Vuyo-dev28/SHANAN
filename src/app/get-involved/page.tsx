@@ -34,7 +34,7 @@ export default function GetInvolvedPage() {
             </div>
             <div className="md:w-1/2 h-64 md:h-auto">
               <Image 
-                src="https://images.unsplash.com/photo-1632236542613-642137948332?w=600&h=450&fit=crop&auto=format"
+                src="/images/picture11.jpg"
                 alt="Hands holding South African Rand coins"
                 width={600}
                 height={450}
@@ -62,7 +62,7 @@ export default function GetInvolvedPage() {
             </div>
             <div className="md:w-1/2 h-64 md:h-auto">
               <Image 
-                src="https://plus.unsplash.com/premium_photo-1663040003050-591632734185?w=600&h=450&fit=crop&auto=format"
+                src="/images/picture26.jpg"
                 alt="A group of diverse volunteers in South Africa smiling"
                 width={600}
                 height={450}
@@ -72,7 +72,7 @@ export default function GetInvolvedPage() {
             </div>
           </Card>
 
-          <Card id="partner" className="w-full flex flex-col md:flex-row items-center overflow-hidden shadow-lg">
+          {/* <Card id="partner" className="w-full flex flex-col md:flex-row items-center overflow-hidden shadow-lg">
             <div className="md:w-1/2 p-8 lg:p-12">
                <div className="inline-flex items-center gap-2 bg-purple-100 text-purple-700 rounded-full px-3 py-1 text-sm font-medium mb-4">
                 <Briefcase className="h-4 w-4" />
@@ -98,7 +98,7 @@ export default function GetInvolvedPage() {
                 data-ai-hint="business meeting"
               />
             </div>
-          </Card>
+          </Card> */}
         </div>
       </div>
     </div>
