@@ -34,7 +34,7 @@ export default function GetInvolvedPage() {
             </div>
             <div className="md:w-1/2 h-64 md:h-auto">
               <Image 
-                src="/images/picture11.jpg"
+                src="/images/hands.png"
                 alt="Hands holding South African Rand coins"
                 width={600}
                 height={450}
